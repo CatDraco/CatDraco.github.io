@@ -25,8 +25,8 @@ h1 {
 
 /*Section headers*/
 h4 {
-   color: hsl(234, 12%, 34%); 
-   margin: 0;
+    color: hsl(234, 12%, 34%);
+    margin: 0;
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 .grid-container {
     display: grid;
     grid-template-columns: 280px 280px 280px;
-    grid-auto-flow: column; 
+    grid-auto-flow: column;
     grid-gap: 30px;
     margin: 0px 70px 40px 70px;
     align-items: center;
@@ -93,18 +93,9 @@ article.card img {
     padding: 0 20px 20px 0;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 /*Change to 1 column for small screens */
 @media (max-width: 375px) {
-  .grid-container {
-      display: block;
-  }
+    .grid-container {
+        display: block;
+    }
 }
