@@ -14,9 +14,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,15 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Frontend Mentor - Four card feature section.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./images/Four_card_feature_section.jpg)
 
 ### Links
 
@@ -53,7 +43,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I learned that there is more than one way to set up a grid and depending on the situation, one method may work better than another.  I found that the method I used for my last project didn't work so well for this one so I had to try a different method.
+I learned that there is more than one way to set up grid and depending on the situation, one method may work better than another.  I found that the method I used for my last project didn't work so well for this one so I had to try a different method.
 
 ### Continued development
 
@@ -63,8 +53,6 @@ I would like to continue focusing on HTML/CSS/JS in future projects.
 
 - [W3 Schools](https://www.w3schools.com/css/default.asp) - This is my favorite resource site for html and css syntax.  
 - [Stack Overflow](https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages) - This post helped me figure out why my images weren't loading from GitHub Pages.  It turns out that I was using a relative path, but starting the URL with "./" instead of just "/" resolved the issue.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
