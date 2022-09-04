@@ -61,6 +61,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+I learned that span is only for inline elements.  I tried grouping an image and text in a span, but it wouldn't display in the correct column of my grid layout.  Images are block elements, so once I changed span to div, the elements displayed correctly.
+
+An easy way to center an object horizontally is to use the following:
+```css
+margin: auto;
+```
+
+
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
@@ -91,7 +99,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [11 Ways to Center Div or Text in Div in CSS](https://blog.hubspot.com/website/center-div-css#:~:text=To%20center%20a%20div%20horizontally,equally%20between%20the%20two%20margins.) - This helped me for centering elements.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+article {
+    height: auto;
+    width: 375px;
+    padding: 25px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    --background-color: hsl(216, 50%, 16%);
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    row-gap: 25px;
+}
+
+img.main-image {
+    width: 325px;
+    height: 325px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+img.main-image:hover {
+    filter: sepia(100%) hue-rotate(140deg) saturate(1000%);
+}
+
+h4.heading {
+    color: hsl(0, 0%, 100%);
+    background-color: var(--background-color);
+    font-size: 1.5em;
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+p {
+    background-color: var(--background-color);
+}
+
+p.subject {
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+div.price {
+    color: hsl(178, 100%, 50%);
+    background-color: var(--background-color);
+    grid-column: 1 / 2;
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+}
+
+div.time-limit {
+    background-color: var(--background-color);
+    grid-column: 2 / 3;
+    grid-row: 4;
+    justify-self: right;
+    display: flex;
+    align-items: center;
+}
+
+p.creator {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+
+img.creator-pic {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.hover-effect {
+    color: hsl(0, 0%, 100%);
+}
+
+.hover-effect:hover {
+    color: hsl(178, 100%, 50%);
+}
